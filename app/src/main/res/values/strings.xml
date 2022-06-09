@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">2022IoT_final_project</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Sensors</string>
+    <string name="title_dashboard">Stream</string>
+    <string name="title_notifications">Setting</string>
+    <string name="title_contributors">Contributors</string>
+    <string name="title_sensors">Sensors</string>
+    <string name="title_stream">Stream</string>
+    <string name="title_setting">Setting</string>
 </resources>

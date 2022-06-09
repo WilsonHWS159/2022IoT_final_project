@@ -3,23 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_sensors">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.a2022iot_final_project.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_sensors"
+        android:name="com.example.a2022iot_final_project.ui.sensors.SensorsFragment"
+        android:label="@string/title_sensors"
+        tools:layout="@layout/fragment_sensors" >
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.a2022iot_final_project.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_stream"
+        android:name="com.example.a2022iot_final_project.ui.stream.StreamFragment"
+        android:label="@string/title_stream"
+        tools:layout="@layout/fragment_stream" >
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.a2022iot_final_project.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_setting"
+        android:name="com.example.a2022iot_final_project.ui.setting.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" >
+    </fragment>
 </navigation>
